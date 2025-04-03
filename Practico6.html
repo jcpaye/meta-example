@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <label for="fechaNac">Fecha de Nacimiento:</label>
-                    <input type="text" name="fechaNac" id="fechaNac">
+                    <input type="date" name="fechaNac" id="fechaNac">
                 </div>
                 <div>
                     <label for="telfono">Telefono de Contacto:</label>
@@ -57,24 +57,24 @@
                 <legend>Datos de inscripcion</legend>
                 <div>
                     <label>Distancia:</label><br>
-                    <input type="radio" name="distancia" id="distancia">
+                    <input type="radio" name="distancia" id="distancia" value="5K">
                     <label for="5K">5K</label><br>
-                    <input type="radio" name="distancia" id="distancia">
+                    <input type="radio" name="distancia" id="distancia" value="10K">
                     <label for="10K">10K</label><br>                    
                 </div>
                 <div>
                     <label>Talla de polera:</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="XS">
                     <label for="XS">XS</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="S">
                     <label for="S">S</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="M">
                     <label for="M">M</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="L">
                     <label for="L">L</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="XL">
                     <label for="XL">XL</label><br>
-                    <input type="radio" name="Talla" id="Talla">
+                    <input type="radio" name="Talla" id="Talla" value="XXL">
                     <label for="XXL">XXL</label><br>
                 </div>
                 <div>
@@ -107,6 +107,17 @@
                     <textarea name="comentarios" id="comentarios"></textarea>
                 </div>
             </fieldset>
+            <div>
+                <a href="Convo.html" target="_blank">Convocatoria</a>
+            </div>
+            <div>
+                <label for="termCon">Acepto los Terminos y Condiciones:</label>
+                <input type="checkbox" name="aceptar" id="termCon" required>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" name="boton_enviar">
+                <input type="reset" value="Reestablecer" name="boton_reestablecer">
+            </div>
         </form>
     </body>
 </html>

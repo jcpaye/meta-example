@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+div{
+   
+    justify-content: center;
+    align-content: center;
+    margin: 5px 100%;
+}
+img{
+    height: 100px;
+}
+p{
+    width: 300px;
+}

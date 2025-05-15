@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background-color: #30b58a;
+    font-family: Century Gothic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+form{
+    background-color: #FFFFFF;
+    width: 360px;
+    text-align: center;
+    font-size: 15px;
+    color: #5c4545;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+input, button{
+    display: block;
+    font-family: Century Gothic;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+input{
+    border: 0px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    background-color: #EDEDED;
+    padding: 15px 25px;
+}
+button{
+    background-color: #FEDD12;
+    border: 0px;
+    margin-bottom: 20px;
+    color: #644E00;
+}
+a{
+    color: black;
+}

@@ -1,0 +1,34 @@
+/* Facebook Analysis */
+.facebook-analysis {
+  background: #0288d1;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.facebook-analysis form {
+  margin-top: 20px;
+  background: white;
+  color: #333;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.facebook-analysis input {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.facebook-analysis button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}

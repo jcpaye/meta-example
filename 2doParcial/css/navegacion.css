@@ -1,0 +1,36 @@
+/* Navegación principal */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav .menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}

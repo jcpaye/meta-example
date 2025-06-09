@@ -1,0 +1,48 @@
+/* Our Work */
+.our-work {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.our-work h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.our-work p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.project {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 300px;
+  width: 100%;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-name {
+  background-color: #fff;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}

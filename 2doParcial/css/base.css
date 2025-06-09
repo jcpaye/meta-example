@@ -1,0 +1,109 @@
+
+/* Tablets y móviles (<= 768px) */
+@media (max-width: 768px) {
+
+  nav .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .about-us .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-approach .steps .step {
+    flex-direction: column !important;
+  }
+
+  .steps .step .image,
+  .steps .step .text {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+.step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step.reverse {
+    flex-direction: column;
+  }
+
+  .step-box {
+    text-align: center;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .our-work .projects {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .facebook-analysis form {
+    width: 90%;
+  }
+
+  .facebook-analysis input {
+    width: 90%;
+  }
+
+  footer input {
+    width: 90%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+/* Móviles pequeños (<= 480px) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .about-us h2,
+  .our-approach h2,
+  .our-work h2,
+  .facebook-analysis h2 {
+    font-size: 22px;
+  }
+
+  nav .logo {
+    font-size: 20px;
+  }
+
+  .facebook-analysis form {
+    padding: 15px;
+  }
+
+  .steps .step .text {
+    font-size: 14px;
+  }
+
+  .our-work .projects {
+    grid-template-columns: 1fr;
+  }
+}

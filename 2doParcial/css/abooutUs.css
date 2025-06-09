@@ -1,0 +1,21 @@
+/* Sección About Us */
+.about-us {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-us .services {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about-us .service {
+  width: 200px;
+}

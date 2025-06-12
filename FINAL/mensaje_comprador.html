@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bandeja de Mensajes</title>
+  <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <span>Bandeja de Mensajes</span>
+      <button class="close-btn">&times;</button>
+    </div>
+    <div class="chat-tabs">
+      <button class="tab active" onclick="switchTab('vendedores')">Vendedores</button>
+      <button class="tab" onclick="switchTab('compradores')">Compradores</button>
+    </div>
+
+    <div id="vendedores" class="chat-list visible">
+      <!-- Ejemplo de conversación -->
+      <div class="chat-preview">
+        <div class="tags">
+          <span class="tag">Usuario01</span>
+          <span class="tag">Producto01</span>
+        </div>
+        <p>Buenas, quería informarle que el precio del producto...</p>
+      </div>
+      <div class="chat-preview">
+        <div class="tags">
+          <span class="tag">Usuario02</span>
+          <span class="tag">Producto10</span>
+        </div>
+        <p>Buenas, quería informarle que el precio del producto...</p>
+      </div>
+    </div>
+
+    <div id="compradores" class="chat-list hidden">
+      <div class="chat-preview">
+        <div class="tags">
+          <span class="tag">Usuario35</span>
+          <span class="tag">Producto20</span>
+        </div>
+        <p>Hola, me interesa el producto y quería saber si aún está disponible...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>
